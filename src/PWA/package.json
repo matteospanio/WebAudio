@@ -1,0 +1,19 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "demo of pwa",
+  "main": "index.html",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "keywords": [
+    "pwa",
+    "javascript",
+    "demo"
+  ],
+  "author": "matteospanio",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}

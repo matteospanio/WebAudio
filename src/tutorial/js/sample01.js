@@ -17,7 +17,7 @@ playBtn.addEventListener('click', () => {
     osc.start();
 
     // Stop the oscillator after 1 second
-    osc.stop(context.currentTime + 1);
+    osc.stop(1);
 });
 
-document.body.appendChild(playBtn);
+document.querySelector('.app').appendChild(playBtn);

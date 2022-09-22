@@ -68,7 +68,7 @@ function main() {
 function createBtn(text) {
     const btn = document.createElement('button')
     btn.textContent = text
-    document.body.appendChild(btn)
+    document.querySelector('.app').appendChild(btn)
     return btn
 }
 
@@ -79,7 +79,7 @@ function createCheckBox(text) {
     input.setAttribute('checked', true)
     label.appendChild(input)
     label.appendChild(document.createTextNode(text))
-    document.body.appendChild(label)
+    document.querySelector('.app').appendChild(label)
     return input
 }
 
